@@ -12,9 +12,11 @@ public class User {
 		this.name = name;
 	}
 
+	
+
 	@Override
 	public String toString() {
-		return "User [name=" + name + "]";
+		return "User [name=" + name + ", age=" + age + "]";
 	}
 
 	public int getAge() {
